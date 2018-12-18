@@ -1,4 +1,4 @@
-#Simulation Solar System
+# Simulation Solar System
 
 ## Description
 Simulation of the Solar System (not to scale). Originally created by Braeden Richards, Deev Patel, and Jordan Andrieu for CS 480 - Computer Graphics at the University of Nevada Reno. Now, this project is updated and improved solely by Braeden Richards.
