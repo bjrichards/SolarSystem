@@ -1,10 +1,7 @@
-# PA7: Solar System
+#Simulation Solar System
 
-## Group
-This is the main repository for the code. The group members include
-  * Jordan Andrieu
-  * Deev Patel
-  * Braeden Richards
+## Description
+Simulation of the Solar System (not to scale). Originally created by Braeden Richards, Deev Patel, and Jordan Andrieu for CS 480 - Computer Graphics at the University of Nevada Reno. Now, this project is updated and improved solely by Braeden Richards.
 
 ## Dependency Instructions
 To run this project installation for the following is required: [GLEW](http://glew.sourceforge.net/), [GLM](http://glm.g-truc.net/0.9.7/index.html), [SDL2](https://wiki.libsdl.org/Tutorials), [assimp](https://github.com/assimp/assimp/wiki), and [magick++](http://www.imagemagick.org/Magick%2B%2B/).
@@ -25,13 +22,13 @@ make
 ./Solar_System
 ```
 
-## Configuration File - Extra Credit
+## Configuration File
 This program makes use of configuration files to specify the characteristics of the solar system. It contains all the information about the relative size and orbits of all the planets and moons. The configuration file can be loaded with the '-l' command line flag. By default, the "launch/DefaultConfig.txt" file is loaded. The data in the file must appear in the order shown. You should only change the values. Adding new lines/variables may cause errors.
 
-## Simulation Speed - Extra Credit
+## Simulation Speed
 The program offers the ability to change the simulation speed of the solar system. Pressing and holding down 'f' makes the speed faster while pressing and holding down 's' will make the speed slower. The solar system can be stopped entirely by holding down 's' for long enough.
 
-## Planets & Rings - Extra Credit
+## Planets & Rings
 The solar system includes all planets, including Pluto. Each planet can be focused on directly from the IMGUI menu. The orbits of other planets can seem strange from the perspective of a specific planet because the orbits are elliptical. Jupiter, Saturn, Neptune, & Uranus have rings. Some of the larger planets have many moons. Since planets such as Jupiter have a large number of moons, we only showed the major ones.
 
 ## Keyboard Controls
